@@ -42,9 +42,6 @@ define([
     };
   }
 
-
-
-
   var pointsRenderer = {
     type: "unique-value", // autocasts as new UniqueValueRenderer()
     field: "Type",
@@ -162,8 +159,6 @@ define([
       expression: "Text('Fyllgrad:', $feature.Quantity,)"
     }
   });
-
-
 
   var maskinTracks = new StreamLayer({
     url: "https://demo09.geodata.no/arcgis/rest/services/e16-Stream/StreamServer",
